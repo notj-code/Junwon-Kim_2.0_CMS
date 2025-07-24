@@ -1,50 +1,16 @@
-2025-07-24T17:04:48.505027659Z  → /opt/render/project/src/node_modules/.pnpm/better-sqlite3@11.3.0/node_modules/better-sqlite3/lib/binding/node-v127-linux-x64/better_sqlite3.node
-2025-07-24T17:04:48.505029929Z     at bindings (/opt/render/project/src/node_modules/.pnpm/bindings@1.5.0/node_modules/bindings/bindings.js:126:9)
-2025-07-24T17:04:48.505032169Z     at new Database (/opt/render/project/src/node_modules/.pnpm/better-sqlite3@11.3.0/node_modules/better-sqlite3/lib/database.js:48:64)
-2025-07-24T17:04:48.505038529Z     at Client_BetterSQLite3.acquireRawConnection (/opt/render/project/src/node_modules/.pnpm/knex@3.0.1_better-sqlite3@11.3.0_pg@8.16.3/node_modules/knex/lib/dialects/better-sqlite3/index.js:14:12)
-2025-07-24T17:04:48.505041139Z     at create (/opt/render/project/src/node_modules/.pnpm/knex@3.0.1_better-sqlite3@11.3.0_pg@8.16.3/node_modules/knex/lib/client.js:262:39)
-2025-07-24T17:04:48.505043889Z [2025-07-24 17:04:48.504] info: Shutting down Strapi
-2025-07-24T17:04:48.711723734Z  ELIFECYCLE  Command failed with exit code 1.
-2025-07-24T17:04:49.724534958Z ==> No open ports detected, continuing to scan...
-2025-07-24T17:04:50.125308112Z ==> Docs on specifying a port: https://render.com/docs/web-services#port-binding
-2025-07-24T17:04:50.553973589Z ==> Exited with status 1
-2025-07-24T17:04:50.714046698Z ==> Common ways to troubleshoot your deploy: https://render.com/docs/troubleshooting-deploys
-2025-07-24T17:04:58.384083133Z ==> Running 'pnpm run start'
-2025-07-24T17:05:00.78607333Z 
-2025-07-24T17:05:00.786110541Z > junwon-kim-2-0-cms@0.1.0 start /opt/render/project/src
-2025-07-24T17:05:00.786115601Z > strapi start
-2025-07-24T17:05:00.786118071Z 
-2025-07-24T17:05:24.888409518Z [2025-07-24 17:05:24.887] error: Could not locate the bindings file. Tried:
-2025-07-24T17:05:24.888435269Z  → /opt/render/project/src/node_modules/.pnpm/better-sqlite3@11.3.0/node_modules/better-sqlite3/build/better_sqlite3.node
-2025-07-24T17:05:24.888443069Z  → /opt/render/project/src/node_modules/.pnpm/better-sqlite3@11.3.0/node_modules/better-sqlite3/build/Debug/better_sqlite3.node
-2025-07-24T17:05:24.888448069Z  → /opt/render/project/src/node_modules/.pnpm/better-sqlite3@11.3.0/node_modules/better-sqlite3/build/Release/better_sqlite3.node
-2025-07-24T17:05:24.888452969Z  → /opt/render/project/src/node_modules/.pnpm/better-sqlite3@11.3.0/node_modules/better-sqlite3/out/Debug/better_sqlite3.node
-2025-07-24T17:05:24.888457199Z  → /opt/render/project/src/node_modules/.pnpm/better-sqlite3@11.3.0/node_modules/better-sqlite3/Debug/better_sqlite3.node
-2025-07-24T17:05:24.888461599Z  → /opt/render/project/src/node_modules/.pnpm/better-sqlite3@11.3.0/node_modules/better-sqlite3/out/Release/better_sqlite3.node
-2025-07-24T17:05:24.88846603Z  → /opt/render/project/src/node_modules/.pnpm/better-sqlite3@11.3.0/node_modules/better-sqlite3/Release/better_sqlite3.node
-2025-07-24T17:05:24.88847068Z  → /opt/render/project/src/node_modules/.pnpm/better-sqlite3@11.3.0/node_modules/better-sqlite3/build/default/better_sqlite3.node
-2025-07-24T17:05:24.88847511Z  → /opt/render/project/src/node_modules/.pnpm/better-sqlite3@11.3.0/node_modules/better-sqlite3/compiled/22.17.1/linux/x64/better_sqlite3.node
-2025-07-24T17:05:24.88847977Z  → /opt/render/project/src/node_modules/.pnpm/better-sqlite3@11.3.0/node_modules/better-sqlite3/addon-build/release/install-root/better_sqlite3.node
-2025-07-24T17:05:24.88848801Z  → /opt/render/project/src/node_modules/.pnpm/better-sqlite3@11.3.0/node_modules/better-sqlite3/addon-build/debug/install-root/better_sqlite3.node
-2025-07-24T17:05:24.88849273Z  → /opt/render/project/src/node_modules/.pnpm/better-sqlite3@11.3.0/node_modules/better-sqlite3/addon-build/default/install-root/better_sqlite3.node
-2025-07-24T17:05:24.88849746Z  → /opt/render/project/src/node_modules/.pnpm/better-sqlite3@11.3.0/node_modules/better-sqlite3/lib/binding/node-v127-linux-x64/better_sqlite3.node
-2025-07-24T17:05:24.88850266Z Error: Could not locate the bindings file. Tried:
-2025-07-24T17:05:24.888507Z  → /opt/render/project/src/node_modules/.pnpm/better-sqlite3@11.3.0/node_modules/better-sqlite3/build/better_sqlite3.node
-2025-07-24T17:05:24.8885117Z  → /opt/render/project/src/node_modules/.pnpm/better-sqlite3@11.3.0/node_modules/better-sqlite3/build/Debug/better_sqlite3.node
-2025-07-24T17:05:24.888516111Z  → /opt/render/project/src/node_modules/.pnpm/better-sqlite3@11.3.0/node_modules/better-sqlite3/build/Release/better_sqlite3.node
-2025-07-24T17:05:24.888520361Z  → /opt/render/project/src/node_modules/.pnpm/better-sqlite3@11.3.0/node_modules/better-sqlite3/out/Debug/better_sqlite3.node
-2025-07-24T17:05:24.888525161Z  → /opt/render/project/src/node_modules/.pnpm/better-sqlite3@11.3.0/node_modules/better-sqlite3/Debug/better_sqlite3.node
-2025-07-24T17:05:24.888529561Z  → /opt/render/project/src/node_modules/.pnpm/better-sqlite3@11.3.0/node_modules/better-sqlite3/out/Release/better_sqlite3.node
-2025-07-24T17:05:24.888535661Z  → /opt/render/project/src/node_modules/.pnpm/better-sqlite3@11.3.0/node_modules/better-sqlite3/Release/better_sqlite3.node
-2025-07-24T17:05:24.888540011Z  → /opt/render/project/src/node_modules/.pnpm/better-sqlite3@11.3.0/node_modules/better-sqlite3/build/default/better_sqlite3.node
-2025-07-24T17:05:24.888555132Z  → /opt/render/project/src/node_modules/.pnpm/better-sqlite3@11.3.0/node_modules/better-sqlite3/compiled/22.17.1/linux/x64/better_sqlite3.node
-2025-07-24T17:05:24.888558321Z  → /opt/render/project/src/node_modules/.pnpm/better-sqlite3@11.3.0/node_modules/better-sqlite3/addon-build/release/install-root/better_sqlite3.node
-2025-07-24T17:05:24.888561452Z  → /opt/render/project/src/node_modules/.pnpm/better-sqlite3@11.3.0/node_modules/better-sqlite3/addon-build/debug/install-root/better_sqlite3.node
-2025-07-24T17:05:24.888564362Z  → /opt/render/project/src/node_modules/.pnpm/better-sqlite3@11.3.0/node_modules/better-sqlite3/addon-build/default/install-root/better_sqlite3.node
-2025-07-24T17:05:24.888566892Z  → /opt/render/project/src/node_modules/.pnpm/better-sqlite3@11.3.0/node_modules/better-sqlite3/lib/binding/node-v127-linux-x64/better_sqlite3.node
-2025-07-24T17:05:24.888569702Z     at bindings (/opt/render/project/src/node_modules/.pnpm/bindings@1.5.0/node_modules/bindings/bindings.js:126:9)
-2025-07-24T17:05:24.888572622Z     at new Database (/opt/render/project/src/node_modules/.pnpm/better-sqlite3@11.3.0/node_modules/better-sqlite3/lib/database.js:48:64)
-2025-07-24T17:05:24.888593452Z     at Client_BetterSQLite3.acquireRawConnection (/opt/render/project/src/node_modules/.pnpm/knex@3.0.1_better-sqlite3@11.3.0_pg@8.16.3/node_modules/knex/lib/dialects/better-sqlite3/index.js:14:12)
-2025-07-24T17:05:24.888597282Z     at create (/opt/render/project/src/node_modules/.pnpm/knex@3.0.1_better-sqlite3@11.3.0_pg@8.16.3/node_modules/knex/lib/client.js:262:39)
-2025-07-24T17:05:24.888798646Z [2025-07-24 17:05:24.888] info: Shutting down Strapi
-2025-07-24T17:05:25.094500541Z  ELIFECYCLE  Command failed with exit code 1.
+2025-07-24T17:10:40.989083171Z ==> Cloning from https://github.com/notj-code/Junwon-Kim_2.0_CMS
+2025-07-24T17:10:41.918132056Z ==> Checking out commit eeca57b9fa2a7686cb47b515e74f4602937c3676 in branch main
+2025-07-24T17:10:44.042192487Z ==> Requesting Node.js version >=18.0.0 <=22.x.x
+2025-07-24T17:10:44.293683931Z ==> Using Node.js version 22.17.1 via /opt/render/project/src/package.json
+2025-07-24T17:10:44.331455933Z ==> Docs on specifying a Node.js version: https://render.com/docs/node-version
+2025-07-24T17:10:46.31921462Z ==> Using Bun version 1.1.0 (default)
+2025-07-24T17:10:46.31923987Z ==> Docs on specifying a Bun version: https://render.com/docs/bun-version
+2025-07-24T17:10:46.381527618Z ==> Running build command 'pnpm install --prod && pnpm build'...
+2025-07-24T17:10:46.878871204Z  ERR_PNPM_OUTDATED_LOCKFILE  Cannot install with "frozen-lockfile" because pnpm-lock.yaml is not up to date with <ROOT>/package.json
+2025-07-24T17:10:46.878897465Z 
+2025-07-24T17:10:46.878903235Z Note that in CI environments this setting is true by default. If you still need to run install in such cases, use "pnpm install --no-frozen-lockfile"
+2025-07-24T17:10:46.878906945Z 
+2025-07-24T17:10:46.878911625Z   Failure reason:
+2025-07-24T17:10:46.878919115Z   "dependencies" in the lockfile ({"@strapi/plugin-cloud":"5.18.1(623a4d1741d957713a11d87d9eb478b4)","@strapi/plugin-users-permissions":"5.18.1(4b3a4fbfe170e5cb800ad7416fddc7c6)","@strapi/strapi":"5.18.1(@babel/runtime@7.27.6)(@codemirror/autocomplete@6.18.6)(@codemirror/language@6.11.2)(@codemirror/lint@6.8.5)(@codemirror/search@6.5.11)(@codemirror/state@6.5.2)(@codemirror/theme-one-dark@6.1.3)(@codemirror/view@6.38.1)(@swc/helpers@0.5.17)(@types/hoist-non-react-statics@3.3.6)(@types/node@20.19.9)(@types/react-dom@18.3.7(@types/react@18.3.23))(@types/react@18.3.23)(better-sqlite3@11.3.0)(codemirror@5.65.19)(esbuild@0.25.8)(koa@2.16.1)(pg@8.16.3)(react-dom@18.3.1(react@18.3.1))(react-router-dom@6.30.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(redux@4.2.1)(styled-components@6.1.19(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(terser@5.43.1)(type-fest@4.41.0)","better-sqlite3":"11.3.0","pg":"8.16.3","react":"18.3.1","react-dom":"18.3.1(react@18.3.1)","react-router-dom":"6.30.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)","styled-components":"6.1.19(react-dom@18.3.1(react@18.3.1))(react@18.3.1)"}) doesn't match the same field in package.json ({"@strapi/plugin-cloud":"5.18.1","@strapi/plugin-users-permissions":"5.18.1","@strapi/strapi":"5.18.1","pg":"^8.16.3","react":"^18.0.0","react-dom":"^18.0.0","react-router-dom":"^6.0.0","styled-components":"^6.0.0"})
+2025-07-24T17:10:46.90111916Z ==> Build failed 😞
+2025-07-24T17:10:46.901145311Z ==> Common ways to troubleshoot your deploy: https://render.com/docs/troubleshooting-deploys
